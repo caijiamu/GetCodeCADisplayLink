@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85283EC71D1B8AA900737CFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85283EC61D1B8AA900737CFE /* main.m */; };
+		85283ECA1D1B8AA900737CFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85283EC91D1B8AA900737CFE /* AppDelegate.m */; };
+		85283ECD1D1B8AA900737CFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85283ECC1D1B8AA900737CFE /* ViewController.m */; };
+		85283ED01D1B8AA900737CFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85283ECE1D1B8AA900737CFE /* Main.storyboard */; };
+		85283ED21D1B8AA900737CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85283ED11D1B8AA900737CFE /* Assets.xcassets */; };
+		85283ED51D1B8AA900737CFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85283ED31D1B8AA900737CFE /* LaunchScreen.storyboard */; };
+		85283EDE1D1B8B0200737CFE /* JMCountButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 85283EDD1D1B8B0200737CFE /* JMCountButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85283EC21D1B8AA900737CFE /* 计时器的demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "计时器的demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85283EC61D1B8AA900737CFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85283EC81D1B8AA900737CFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85283EC91D1B8AA900737CFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85283ECB1D1B8AA900737CFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85283ECC1D1B8AA900737CFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85283ECF1D1B8AA900737CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85283ED11D1B8AA900737CFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85283ED41D1B8AA900737CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85283ED61D1B8AA900737CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85283EDC1D1B8B0200737CFE /* JMCountButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMCountButton.h; sourceTree = "<group>"; };
+		85283EDD1D1B8B0200737CFE /* JMCountButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMCountButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85283EBF1D1B8AA900737CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85283EB91D1B8AA900737CFE = {
+			isa = PBXGroup;
+			children = (
+				85283EC41D1B8AA900737CFE /* 计时器的demo */,
+				85283EC31D1B8AA900737CFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85283EC31D1B8AA900737CFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85283EC21D1B8AA900737CFE /* 计时器的demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85283EC41D1B8AA900737CFE /* 计时器的demo */ = {
+			isa = PBXGroup;
+			children = (
+				85283EC81D1B8AA900737CFE /* AppDelegate.h */,
+				85283EC91D1B8AA900737CFE /* AppDelegate.m */,
+				85283ECB1D1B8AA900737CFE /* ViewController.h */,
+				85283ECC1D1B8AA900737CFE /* ViewController.m */,
+				85283ECE1D1B8AA900737CFE /* Main.storyboard */,
+				85283EDC1D1B8B0200737CFE /* JMCountButton.h */,
+				85283EDD1D1B8B0200737CFE /* JMCountButton.m */,
+				85283ED11D1B8AA900737CFE /* Assets.xcassets */,
+				85283ED31D1B8AA900737CFE /* LaunchScreen.storyboard */,
+				85283ED61D1B8AA900737CFE /* Info.plist */,
+				85283EC51D1B8AA900737CFE /* Supporting Files */,
+			);
+			path = "计时器的demo";
+			sourceTree = "<group>";
+		};
+		85283EC51D1B8AA900737CFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85283EC61D1B8AA900737CFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85283EC11D1B8AA900737CFE /* 计时器的demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85283ED91D1B8AA900737CFE /* Build configuration list for PBXNativeTarget "计时器的demo" */;
+			buildPhases = (
+				85283EBE1D1B8AA900737CFE /* Sources */,
+				85283EBF1D1B8AA900737CFE /* Frameworks */,
+				85283EC01D1B8AA900737CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "计时器的demo";
+			productName = "计时器的demo";
+			productReference = 85283EC21D1B8AA900737CFE /* 计时器的demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85283EBA1D1B8AA900737CFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "cloud.wood-group";
+				TargetAttributes = {
+					85283EC11D1B8AA900737CFE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 85283EBD1D1B8AA900737CFE /* Build configuration list for PBXProject "计时器的demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85283EB91D1B8AA900737CFE;
+			productRefGroup = 85283EC31D1B8AA900737CFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85283EC11D1B8AA900737CFE /* 计时器的demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85283EC01D1B8AA900737CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85283ED51D1B8AA900737CFE /* LaunchScreen.storyboard in Resources */,
+				85283ED21D1B8AA900737CFE /* Assets.xcassets in Resources */,
+				85283ED01D1B8AA900737CFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85283EBE1D1B8AA900737CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85283ECD1D1B8AA900737CFE /* ViewController.m in Sources */,
+				85283ECA1D1B8AA900737CFE /* AppDelegate.m in Sources */,
+				85283EDE1D1B8B0200737CFE /* JMCountButton.m in Sources */,
+				85283EC71D1B8AA900737CFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85283ECE1D1B8AA900737CFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85283ECF1D1B8AA900737CFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85283ED31D1B8AA900737CFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85283ED41D1B8AA900737CFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85283ED71D1B8AA900737CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85283ED81D1B8AA900737CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85283EDA1D1B8AA900737CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "计时器的demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.wood-group.cn.----demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85283EDB1D1B8AA900737CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "计时器的demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.wood-group.cn.----demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85283EBD1D1B8AA900737CFE /* Build configuration list for PBXProject "计时器的demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85283ED71D1B8AA900737CFE /* Debug */,
+				85283ED81D1B8AA900737CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85283ED91D1B8AA900737CFE /* Build configuration list for PBXNativeTarget "计时器的demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85283EDA1D1B8AA900737CFE /* Debug */,
+				85283EDB1D1B8AA900737CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85283EBA1D1B8AA900737CFE /* Project object */;
+}
